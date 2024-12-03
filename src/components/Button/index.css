@@ -1,0 +1,10 @@
+.my-button{
+    min-width: 120px;
+    height: 40px;
+    background-color: rgb(251, 170, 84);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(83, 0, 51);
+}
