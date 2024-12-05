@@ -1,10 +1,36 @@
 .my-button{
     min-width: 120px;
     height: 40px;
-    background-color: rgb(251, 170, 84);
-    border: none;
     border-radius: 12px;
     cursor: pointer;
     font-size: 16px;
-    color: rgb(83, 0, 51);
+
+    transition: background-color 200ms ease-in-out;
+    box-shadow: 3px 3px 2px rgb(179, 118, 54, 0.3);
+}
+
+.my-button--primary:hover{
+    background: rgb(179, 118, 54);
+}
+
+.my-button--primary{
+    background-color: rgb(251, 170, 84);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+.my-button--bordered{
+    border: 1px solid rgb(251, 170, 84) ;
+    color: rgb(251, 170, 84);
+    background: none;
+}
+
+.my-button--bordered:hover{
+    background: rgb(179, 118, 54);
+    color: white;
+}
+
+.my-button--sm{
+    min-width: 80px;
+    height: 25px;
 }
