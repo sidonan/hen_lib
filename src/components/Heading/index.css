@@ -1,0 +1,35 @@
+.heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+  
+.heading--h1 {
+    font-size: 48px;
+    line-height: 48px;
+}
+  
+.heading--h2 {
+    font-size: 32px;
+    line-height: 32px;
+}
+  
+.heading--h3 {
+    font-size: 24px;
+    line-height: 24px;
+}
+  
+.heading--h4 {
+    font-size: 20px;
+    line-height: 20px;
+}
+  
+.heading--h5 {
+    font-size: 16px;
+    line-height: 16px;
+}
+  
+.heading--h6 {
+    font-size: 14px;
+    line-height: 14px;
+}
+  

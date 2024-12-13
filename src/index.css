@@ -5,9 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.app-buttons {
+  width: 634px;
+  height: 116px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.app-inputs{
+  display: flex; 
+  gap: 10px; 
+  width: 655px;
+  flex-wrap: wrap;
+
+}
+
+.app-typography{
+  width:634px;
+}
+
+.app-heading{
+  width: 634px;
+}
+
+.app-tooltip{
+  width: 634px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.app-accordion{
+  width: 436px;
 }

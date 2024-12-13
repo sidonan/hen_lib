@@ -1,0 +1,37 @@
+.accordion {
+    margin-bottom: 16px;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+  }
+  
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 8px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+
+  }
+  
+
+.accordion-header:hover {
+    background-color: #f0f0f0;
+  }
+  
+
+.accordion-icon {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+
+  .accordion-body {
+    padding: 16px;
+    font-size: 14px;
+    color: #11181C;
+    
+  }
+  
